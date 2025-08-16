@@ -23,11 +23,11 @@ func main (){
 
 	earningBeforeTax,earningAfterTax,profitRatio := result(expenses,revenue,taxRate)
 
-	fmt.Println("Your Earning Before Tax is ", earningBeforeTax)
+	fmt.Printf("Your Earning Before Tax is %0.2f\n", earningBeforeTax)
 
-	fmt.Println("Your Earning After Tax is ", earningAfterTax)
+	fmt.Printf("Your Earning After Tax is %0.2f\n", earningAfterTax)
 
-	fmt.Println("Your Profit Ratio is ", profitRatio)
+	fmt.Printf("Your Profit Ratio is %0.2f\n", profitRatio)
 }
 
 func userInput (input string) float64{
